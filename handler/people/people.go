@@ -2,7 +2,7 @@ package main
 
 import (
 	"encoding/json"
-	"github.com/go-lambda-example/repository"
+	"github.com/sigh-man/go-lambda-example/repository"
 	"sort"
 
 	"github.com/aws/aws-lambda-go/events"
