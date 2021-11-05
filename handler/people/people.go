@@ -2,11 +2,11 @@ package main
 
 import (
 	"encoding/json"
+	"github.com/go-lambda-example/repository"
 	"sort"
 
 	"github.com/aws/aws-lambda-go/events"
 	"github.com/aws/aws-lambda-go/lambda"
-	"github.com/sbstjn/go-lambda-example/repository"
 )
 
 type AlphabeticalPersonList []repository.Person
